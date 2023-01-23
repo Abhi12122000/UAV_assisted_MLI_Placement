@@ -1,2 +1,2 @@
-# TD3_multi_agent_uav-
-Paper Implementation
+# Paper Implementation
+Paper:- "Multi-Agent Deep Reinforcement Learning for Task Offloading in UAV-Assisted Mobile Edge Computing", by Zhao et. al.
