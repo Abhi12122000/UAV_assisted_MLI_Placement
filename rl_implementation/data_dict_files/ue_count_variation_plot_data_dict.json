@@ -1,0 +1,123 @@
+{
+    "system_component_count_limits": {
+        "UE_count": {
+            "maxi": 10,
+            "mini": 3
+        },
+        "total_server_count": {
+            "maxi": 8,
+            "mini": 3
+        },
+        "UAV_count": {
+            "maxi": 6,
+            "mini": 1
+        },
+        "num_mlis": {
+            "maxi": 5,
+            "mini": 2
+        }
+    },
+    "mli_info": {
+        "mli_details": [
+            {
+                "D": 1,
+                "R": 100000,
+                "p": 500
+            },
+            {
+                "D": 20,
+                "R": 400000,
+                "p": 300
+            },
+            {
+                "D": 40000,
+                "R": 1000000,
+                "p": 3600
+            },
+            {
+                "D": 50000,
+                "R": 5000000,
+                "p": 400
+            }
+        ],
+        "mli_transmission_latencies": [
+            {
+                "ue_uav_transmission_latency": 20,
+                "uav_fs_transmission_latency": 200,
+                "fs_cloud_transmission_latency": 100 
+            },
+            {
+                "ue_uav_transmission_latency": 40,
+                "uav_fs_transmission_latency": 200,
+                "fs_cloud_transmission_latency": 150 
+            },
+            {
+                "ue_uav_transmission_latency": 400,
+                "uav_fs_transmission_latency": 800,
+                "fs_cloud_transmission_latency": 900
+            },
+            {
+                "ue_uav_transmission_latency": 500,
+                "uav_fs_transmission_latency": 900,
+                "fs_cloud_transmission_latency": 450
+            }
+        ]
+    },
+    "server_mli_computation_coeff": {
+        "uav": {
+            "trad_memory": [
+                40,
+                125,
+                600,
+                300
+            ],
+            "nvm_memory": [
+                100,
+                250,
+                1600,
+                750
+            ]
+        },
+        "fs": {
+            "trad_memory": [
+                40,
+                115,
+                550,
+                250
+            ],
+            "nvm_memory": [
+                90,
+                220,
+                1300,
+                500
+            ]
+        },
+        "cloud": {
+            "computation_time": [
+                40,
+                100,
+                500,
+                200
+            ]
+        }
+    },
+    "cost_conversion_parameters": {
+        "a": 0.01,
+        "phi": 0.00005
+    },
+    "server_memory_resource_limit_info": {
+        "uav": {
+            "trad_memory_resource": 250000,
+            "nvm_memory_resource": 600000
+        },
+        "fs": {
+            "trad_memory_resource": 700000,
+            "nvm_memory_resource": 4500000
+        }
+    },
+    "power_coefficient_blueprint": {
+        "transmission_power": 10,
+        "receiving_power": 10,
+        "computation_power": 10
+    }
+}

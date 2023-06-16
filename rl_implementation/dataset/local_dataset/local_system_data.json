@@ -1,0 +1,576 @@
+{
+    "system_component_counts": {
+        "UE_count": 518,
+        "total_server_count": 10,
+        "UAV_count": 5,
+        "FS_count": 4,
+        "num_mlis": 26
+    },
+    "mli_info": {
+        "mli_details": [
+            {
+                "D": 37660,
+                "R": 4567665,
+                "p": 516
+            },
+            {
+                "D": 45108,
+                "R": 1018296,
+                "p": 2863
+            },
+            {
+                "D": 1,
+                "R": 111606,
+                "p": 565
+            },
+            {
+                "D": 33701,
+                "R": 770856,
+                "p": 3127
+            },
+            {
+                "D": 42150,
+                "R": 828999,
+                "p": 2871
+            },
+            {
+                "D": 42372,
+                "R": 5251834,
+                "p": 465
+            },
+            {
+                "D": 21,
+                "R": 447763,
+                "p": 257
+            },
+            {
+                "D": 36372,
+                "R": 948274,
+                "p": 4377
+            },
+            {
+                "D": 1,
+                "R": 87853,
+                "p": 466
+            },
+            {
+                "D": 48994,
+                "R": 5034212,
+                "p": 735
+            },
+            {
+                "D": 39225,
+                "R": 1217693,
+                "p": 3264
+            },
+            {
+                "D": 24,
+                "R": 354286,
+                "p": 251
+            },
+            {
+                "D": 39364,
+                "R": 4246382,
+                "p": 649
+            },
+            {
+                "D": 1,
+                "R": 107085,
+                "p": 734
+            },
+            {
+                "D": 46836,
+                "R": 5070131,
+                "p": 505
+            },
+            {
+                "D": 15,
+                "R": 302736,
+                "p": 234
+            },
+            {
+                "D": 19,
+                "R": 302355,
+                "p": 349
+            },
+            {
+                "D": 55249,
+                "R": 4236995,
+                "p": 547
+            },
+            {
+                "D": 31482,
+                "R": 1088881,
+                "p": 4079
+            },
+            {
+                "D": 40435,
+                "R": 5165361,
+                "p": 516
+            },
+            {
+                "D": 38933,
+                "R": 5162592,
+                "p": 462
+            },
+            {
+                "D": 54461,
+                "R": 3813352,
+                "p": 622
+            },
+            {
+                "D": 16,
+                "R": 316359,
+                "p": 318
+            },
+            {
+                "D": 21,
+                "R": 363825,
+                "p": 257
+            },
+            {
+                "D": 38669,
+                "R": 5858840,
+                "p": 669
+            },
+            {
+                "D": 40119,
+                "R": 1202613,
+                "p": 3151
+            }
+        ],
+        "mli_transmission_latencies": [
+            {
+                "ue_uav_transmission_latency": 500,
+                "uav_fs_transmission_latency": 700,
+                "fs_cloud_transmission_latency": 150
+            },
+            {
+                "ue_uav_transmission_latency": 400,
+                "uav_fs_transmission_latency": 600,
+                "fs_cloud_transmission_latency": 800
+            },
+            {
+                "ue_uav_transmission_latency": 10,
+                "uav_fs_transmission_latency": 20,
+                "fs_cloud_transmission_latency": 25
+            },
+            {
+                "ue_uav_transmission_latency": 400,
+                "uav_fs_transmission_latency": 600,
+                "fs_cloud_transmission_latency": 800
+            },
+            {
+                "ue_uav_transmission_latency": 400,
+                "uav_fs_transmission_latency": 600,
+                "fs_cloud_transmission_latency": 800
+            },
+            {
+                "ue_uav_transmission_latency": 500,
+                "uav_fs_transmission_latency": 700,
+                "fs_cloud_transmission_latency": 150
+            },
+            {
+                "ue_uav_transmission_latency": 40,
+                "uav_fs_transmission_latency": 90,
+                "fs_cloud_transmission_latency": 100
+            },
+            {
+                "ue_uav_transmission_latency": 400,
+                "uav_fs_transmission_latency": 600,
+                "fs_cloud_transmission_latency": 800
+            },
+            {
+                "ue_uav_transmission_latency": 10,
+                "uav_fs_transmission_latency": 20,
+                "fs_cloud_transmission_latency": 25
+            },
+            {
+                "ue_uav_transmission_latency": 500,
+                "uav_fs_transmission_latency": 700,
+                "fs_cloud_transmission_latency": 150
+            },
+            {
+                "ue_uav_transmission_latency": 400,
+                "uav_fs_transmission_latency": 600,
+                "fs_cloud_transmission_latency": 800
+            },
+            {
+                "ue_uav_transmission_latency": 40,
+                "uav_fs_transmission_latency": 90,
+                "fs_cloud_transmission_latency": 100
+            },
+            {
+                "ue_uav_transmission_latency": 500,
+                "uav_fs_transmission_latency": 700,
+                "fs_cloud_transmission_latency": 150
+            },
+            {
+                "ue_uav_transmission_latency": 10,
+                "uav_fs_transmission_latency": 20,
+                "fs_cloud_transmission_latency": 25
+            },
+            {
+                "ue_uav_transmission_latency": 500,
+                "uav_fs_transmission_latency": 700,
+                "fs_cloud_transmission_latency": 150
+            },
+            {
+                "ue_uav_transmission_latency": 40,
+                "uav_fs_transmission_latency": 90,
+                "fs_cloud_transmission_latency": 100
+            },
+            {
+                "ue_uav_transmission_latency": 40,
+                "uav_fs_transmission_latency": 90,
+                "fs_cloud_transmission_latency": 100
+            },
+            {
+                "ue_uav_transmission_latency": 500,
+                "uav_fs_transmission_latency": 700,
+                "fs_cloud_transmission_latency": 150
+            },
+            {
+                "ue_uav_transmission_latency": 400,
+                "uav_fs_transmission_latency": 600,
+                "fs_cloud_transmission_latency": 800
+            },
+            {
+                "ue_uav_transmission_latency": 500,
+                "uav_fs_transmission_latency": 700,
+                "fs_cloud_transmission_latency": 150
+            },
+            {
+                "ue_uav_transmission_latency": 500,
+                "uav_fs_transmission_latency": 700,
+                "fs_cloud_transmission_latency": 150
+            },
+            {
+                "ue_uav_transmission_latency": 500,
+                "uav_fs_transmission_latency": 700,
+                "fs_cloud_transmission_latency": 150
+            },
+            {
+                "ue_uav_transmission_latency": 40,
+                "uav_fs_transmission_latency": 90,
+                "fs_cloud_transmission_latency": 100
+            },
+            {
+                "ue_uav_transmission_latency": 40,
+                "uav_fs_transmission_latency": 90,
+                "fs_cloud_transmission_latency": 100
+            },
+            {
+                "ue_uav_transmission_latency": 500,
+                "uav_fs_transmission_latency": 700,
+                "fs_cloud_transmission_latency": 150
+            },
+            {
+                "ue_uav_transmission_latency": 400,
+                "uav_fs_transmission_latency": 600,
+                "fs_cloud_transmission_latency": 800
+            }
+        ]
+    },
+    "server_mli_computation_coeff": {
+        "uav": {
+            "trad_memory": [
+                272,
+                531,
+                37,
+                529,
+                360,
+                331,
+                79,
+                579,
+                27,
+                161,
+                318,
+                152,
+                195,
+                30,
+                156,
+                162,
+                96,
+                386,
+                830,
+                436,
+                426,
+                350,
+                83,
+                105,
+                230,
+                494
+            ],
+            "nvm_memory": [
+                2423,
+                2896,
+                295,
+                3863,
+                1564,
+                1666,
+                280,
+                2750,
+                308,
+                2540,
+                2475,
+                205,
+                1167,
+                341,
+                1094,
+                328,
+                130,
+                1356,
+                1641,
+                1569,
+                2000,
+                1279,
+                269,
+                180,
+                907,
+                2529
+            ]
+        },
+        "fs": {
+            "trad_memory": [
+                325,
+                575,
+                26,
+                444,
+                657,
+                286,
+                77,
+                506,
+                33,
+                370,
+                566,
+                57,
+                268,
+                31,
+                216,
+                111,
+                145,
+                203,
+                673,
+                140,
+                316,
+                163,
+                167,
+                154,
+                330,
+                403
+            ],
+            "nvm_memory": [
+                277,
+                1499,
+                158,
+                3051,
+                1326,
+                366,
+                322,
+                3750,
+                134,
+                673,
+                1894,
+                146,
+                325,
+                130,
+                299,
+                284,
+                213,
+                508,
+                3429,
+                532,
+                439,
+                647,
+                265,
+                296,
+                549,
+                1287
+            ]
+        },
+        "cloud": {
+            "computation_time": [
+                146,
+                684,
+                39,
+                359,
+                450,
+                185,
+                142,
+                576,
+                56,
+                195,
+                313,
+                113,
+                288,
+                21,
+                105,
+                94,
+                135,
+                175,
+                286,
+                264,
+                133,
+                214,
+                132,
+                65,
+                103,
+                714
+            ]
+        }
+    },
+    "server_info": [
+        {
+            "server_idx": 0,
+            "receiving_power": 10,
+            "transmission_power": 10,
+            "computation_power": 13,
+            "parent_server": 8,
+            "children_servers": null,
+            "trad_memory_resource": 329061,
+            "nvm_memory_resource": 720790,
+            "x": 184.28911946016197,
+            "y": 8.23364961688869
+        },
+        {
+            "server_idx": 1,
+            "receiving_power": 13,
+            "transmission_power": 14,
+            "computation_power": 10,
+            "parent_server": 7,
+            "children_servers": null,
+            "trad_memory_resource": 320900,
+            "nvm_memory_resource": 770092,
+            "x": 52.62935810350983,
+            "y": 81.98349815645273
+        },
+        {
+            "server_idx": 2,
+            "receiving_power": 11,
+            "transmission_power": 13,
+            "computation_power": 11,
+            "parent_server": 6,
+            "children_servers": null,
+            "trad_memory_resource": 335719,
+            "nvm_memory_resource": 673434,
+            "x": 150.59206915572523,
+            "y": 155.20036214356153
+        },
+        {
+            "server_idx": 3,
+            "receiving_power": 12,
+            "transmission_power": 12,
+            "computation_power": 6,
+            "parent_server": 8,
+            "children_servers": null,
+            "trad_memory_resource": 356146,
+            "nvm_memory_resource": 851102,
+            "x": 189.95707285104814,
+            "y": 22.801618241245354
+        },
+        {
+            "server_idx": 4,
+            "receiving_power": 15,
+            "transmission_power": 5,
+            "computation_power": 6,
+            "parent_server": 6,
+            "children_servers": null,
+            "trad_memory_resource": 272495,
+            "nvm_memory_resource": 836352,
+            "x": 59.58774923018301,
+            "y": 196.35306451551048
+        },
+        {
+            "server_idx": 5,
+            "receiving_power": 11,
+            "transmission_power": 14,
+            "computation_power": 15,
+            "parent_server": 9,
+            "children_servers": null,
+            "trad_memory_resource": 1476216,
+            "nvm_memory_resource": 7415871,
+            "x": 68.0,
+            "y": 41.0
+        },
+        {
+            "server_idx": 6,
+            "receiving_power": 7,
+            "transmission_power": 14,
+            "computation_power": 13,
+            "parent_server": 9,
+            "children_servers": null,
+            "trad_memory_resource": 1319075,
+            "nvm_memory_resource": 8644254,
+            "x": 98.0,
+            "y": 180.0
+        },
+        {
+            "server_idx": 7,
+            "receiving_power": 12,
+            "transmission_power": 12,
+            "computation_power": 7,
+            "parent_server": 9,
+            "children_servers": null,
+            "trad_memory_resource": 1116367,
+            "nvm_memory_resource": 8917273,
+            "x": 22.0,
+            "y": 157.0
+        },
+        {
+            "server_idx": 8,
+            "receiving_power": 8,
+            "transmission_power": 7,
+            "computation_power": 5,
+            "parent_server": 9,
+            "children_servers": null,
+            "trad_memory_resource": 1108963,
+            "nvm_memory_resource": 7253208,
+            "x": 83.0,
+            "y": 51.0
+        },
+        {
+            "server_idx": 9,
+            "receiving_power": 7,
+            "transmission_power": 7,
+            "computation_power": 7,
+            "parent_server": null,
+            "children_servers": null
+        }
+    ],
+    "cost_conversion_parameters": {
+        "a": 0.01,
+        "phi": 5e-05
+    },
+    "UE_centered_details": {
+        "center": [
+            [
+                97.29019401772108,
+                40.17861291657129
+            ],
+            [
+                220.3090528157033,
+                92.56815799106784
+            ],
+            [
+                125.33735661690527,
+                204.01128025875067
+            ],
+            [
+                27.624749200290395,
+                125.92827590722625
+            ],
+            [
+                143.09989302368677,
+                118.981100100757
+            ]
+        ],
+        "radius": [
+            21.87210977724009,
+            21.87210977724009,
+            21.87210977724009,
+            21.87210977724009,
+            21.87210977724009
+        ]
+    }
+}

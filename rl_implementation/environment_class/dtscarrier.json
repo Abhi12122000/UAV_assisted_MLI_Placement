@@ -1,0 +1,6 @@
+{
+    "ue_placement_type": "centered",
+    "random_reset": false,
+    "num_trained_epochs": 405,
+    "reset_reward": 50
+}
